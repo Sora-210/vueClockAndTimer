@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>{{TimerData.Title}}:{{TimerData.ResidueSecond}}</p>
+        <h4>{{TimerData.Title}}</h4>
         <p>{{Hour}}:{{Minute}}:{{Second}}</p>
         <button @click="$emit('delete')">取り消し</button>
     </div>
